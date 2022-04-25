@@ -1,0 +1,78 @@
+/*Common style*/
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+
+/* Common nav style*/
+.navigation-wrapper {
+    height: 190px;
+    background-color: #05083d;
+    color: #cbcbcb;
+    /* flex container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px 60px 100px;
+}
+.left-column {
+    display: flex;
+    align-items: center;
+}
+.icon { 
+    margin-right: 15px;
+}
+.icon i{
+    font-size: 2em;
+}
+.navigation-wrapper > .left-column > .contact-hours-wrapper {
+    color: #858585
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+.center-column > .logo {
+    width: 230px;
+    height: 120px;
+    font-size: 30px;
+    color: fuchsia;
+    font-weight: bold;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.nav-link {
+    font-family: sans-serif;
+    color: #cbcbcb
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 10px;
+}
+a {
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+.nav-link a:hover{
+    color: #cea135;
+
+}
+/* Right columnm styles*/
+
+.right-column > .Address {
+    font-family: sans-serif;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+.Address a {
+    color: #858585;
+    font size: 0.9em;
+    transition:0.5s;
+}
+.Address a:hover {
+    color: #cea135;
+
+}

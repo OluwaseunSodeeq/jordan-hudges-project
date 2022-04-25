@@ -1,0 +1,151 @@
+/*Common style*/
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+    overflow-x: hidden;
+    
+    
+}
+.navigation-wrapper {
+    background-color: #11122b;
+    height: 250px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+     
+}
+/* left navigation */
+.navigation-wrapper > .left-wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: #cbcbcb;
+    margin-left: 45px;
+    margin-right: 35px;
+
+    
+}
+.left-wrapper > .contact-hours-wrapper {
+    display: flex;
+    justify-content: space-between;
+    color: #cbcbcb;
+
+}
+.navigation-wrapper > .left-wrapper > .icon {
+    font-size: 30px;
+    color: #cbcbcb;
+    margin-top: 15px;
+    border: 10px;
+
+}
+    
+.navigation-wrapper > .left-wrapper > .contact-hours-wrapper >.phone {
+    height: 20px;
+    padding: 10px;
+
+}
+.navigation-wrapper > .left-wrapper > .contact-hours-wrapper >.hours {
+    padding: 10px;
+
+}
+/* center-wrapper */
+.center-wrapper {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.home-nav-link-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+a {
+        text-decoration: none;
+        color: #cbcbcb;
+}
+
+
+
+ .navigation-wrapper > .center-wrapper > .home-nav-link-wrapper {
+    display: flex;
+    justify-content: space-around;
+    grid-gap: 15px;
+    margin-top: 10px;
+}
+.navigation-wrapper > .center-wrapper > .logo img {
+    
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+} 
+.navigation-wrapper > .right-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 45px;
+
+}
+
+          /* right-wrapper */
+.navigation-wrapper > .right-wrapper > .icon2 {
+    font-size: 30px;
+    color: #cbcbcb;
+    margin-top: 15px;
+}
+.right-wrapper > .contact-hours-wrapper > .address {
+    font-size: 50px;
+    color: gray;
+    margin-right: 50px;
+}
+a:hover{
+    color: #cea135;
+    letter-spacing: 2px;
+}
+            /* footer */
+.footer > .footer-phone-hours > .footer-phone > .copyright-wrapper {
+    color: #cbcbcb;
+}
+ .footer {
+     font-family: sans-serif;
+     background-color: #11122b;
+     height: 350px;
+     display: grid;
+     align-content: center;
+     justify-content: center;
+     align-items: center;
+     grid-gap: 30;
+     
+}
+.footer > .logo-footer {
+    align-items: center;
+    margin-left: 90px;
+}
+.footer > .nav-link-footer {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 10px;
+    margin-left: -30px;
+    
+    
+}
+.footer > .nav-link-footer a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+    
+}
+.footer > .social-meadia-icons-wrapper {
+    margin-left: 20px;
+}
+.footer > .copyright-wrapper {
+    color: #cbcbcb;
+}
+.footer > .footer-phone-hours {
+    margin-left: 20px;
+} 
+.footer > .footer-phone-hours > .phone-footer {
+    color: #cbcbcb;
+
+}
+.footer > .footer-phone-hours>  .hours-footer {
+    color: #cea135;
+
+}

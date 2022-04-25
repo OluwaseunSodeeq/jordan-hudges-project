@@ -1,0 +1,109 @@
+@media (max-width: 615px) {
+     .navigation-wrapper {
+          flex-direction: column;
+          height: 100%;
+     }.navigation-wrapper > .left-wrapper {
+          order: 2;
+          margin-top: 10px;
+          margin-bottom: 15px;
+     }
+      .navigation-wrapper > .center-wrapper {
+          order: 1;
+          width: 100%;
+     }
+     
+     
+     .navigation-wrapper > .right-wrapper {
+          order: 3;
+          margin-top: 15px;
+     }
+      .home-nav-link-wrapper {
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 20px;
+     }
+     .home-nav-link-wrapper > .nav-link {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          font-size: 1.5em;
+          width: 100%;
+     }
+     .hero-section {
+          padding: 50px 10px;
+     }
+     .features-section {
+          height: 100%;
+     }
+     .features-section > .column-wrapper{
+          width: 100%;
+          flex-direction: column;
+
+     }
+     .map {
+         width: auto;
+         height: 100%;
+     }
+      .footer {
+          height: 100%; 
+     }
+     .nav-link-footer {
+          flex-direction: column;
+          align-items: center;
+          
+     }
+     .nav link {
+          margin-top: 10px;
+          font-size: 1.5em;
+          width: 100%;
+     }
+     .copyright-wrapper {
+          margin-bottom: 10px;
+     }
+     
+     .nav-link-wrapper-abc {
+          flex-direction: column;
+          margin-top: 70px;
+          font-size: 1.5em;
+
+     }.skewed-header >.skewed-header-wrapper >.skewed-header-content {
+          flex-direction: column
+     }
+     .content-wrapper > #chef {
+          margin: 0px 0px 25px 0px !important;
+          width: 100% !important;
+
+     }
+     .page-container{
+          margin-left: 21px;
+          margin-right: 21px;
+     }
+     .square {
+          grid-template-columns: 1fr !important;
+     }
+     .square > .square-text-wrapper {
+          order: 1;
+     }
+     .square > .image-wrapper {
+          order: 2;
+     }
+     .contact-grid-wrapper {
+          width:100%;
+          grid-template-columns: 1fr;
+          grid-gap: 10px;
+     }
+     .form input {
+          padding: 1.5rem 0rem;
+
+     }
+     .form textarea {
+          padding: 1.5rem 0rem;
+
+     }
+
+
+     
+}
+     
+
+     
+ */
